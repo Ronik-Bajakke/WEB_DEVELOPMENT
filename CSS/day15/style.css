@@ -1,0 +1,21 @@
+#one{
+    background-color:yellow;
+    height:300px;
+    width:300px;
+    font-size:20px;
+}
+
+
+#two{
+    background-color:green;
+    height:50px;
+    font-size:2em;
+    width:5em; 
+    /* 5*2*20=200 */
+}
+#three{
+    font-size:5rem;
+    background-color:pink;
+    height:50vh;
+    width:50vw;
+}

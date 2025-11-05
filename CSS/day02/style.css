@@ -1,0 +1,122 @@
+*{
+    font-family:'Courier New';
+}
+
+h3{
+    color:purple;
+}
+
+h1{
+    color:#b92B27;
+}
+
+#login{
+    background-color:white;
+}
+
+#signup{
+    background-color:#b92B27;
+    color:white;
+}
+
+.upvote{
+    background-color:green;
+    color:aliceblue;
+}
+
+/*decendent selector*/
+.post a{
+    color:purple;
+    background-color:yellow;
+}
+
+nav ul li a{
+    color:hotpink;
+}
+
+p+h3{
+    text-decoration:underline;
+}
+
+.upvote+button{
+    background-color:skyblue;
+}
+
+div>input{
+    background-color:cornsilk;
+}
+
+input[type="text"]{
+    color:red;
+    background-color:bisque;
+}
+
+input[type="password"]{
+    color:green;
+}
+
+/*
+#myid p{
+    color:green;
+}
+    */
+
+div[id="myid"] p {
+    color:green;
+}
+
+button:hover{
+    color:white;
+    background-color:black;
+}
+
+h3:hover{
+    text-decoration:none;
+}
+
+button:active{
+    background-color:pink;
+}
+
+p:active{
+    color:green;
+    background-color:yellow;
+}
+
+input[type="radio"]:checked+label{
+    color:red;
+    font-weight:bold;
+}
+
+div:nth-of-type(3n){
+    background-color:blanchedalmond;
+}
+
+h1::first-letter{
+    color:coral;
+}
+
+#myid::first-line{
+    color:red;
+}
+
+p::selection{
+    background-color:crimson;
+}
+
+h4{
+    background-color:yellow;
+}
+h4{
+    background-color:blueviolet;
+}
+
+h5{
+    color:pink !important;
+}
+#greet{
+    color:yellow;
+}
+.myclass{
+    color:brown;
+}

@@ -1,0 +1,61 @@
+p{
+    text-align:right;
+}
+h5{
+    text-align:end;
+    text-decoration:line-through;
+}
+a{
+    text-decoration:none;
+}
+h2{ 
+    color:green;
+    text-align: center;
+    text-decoration:red underline;
+}
+h3{
+    color:green;
+    text-align:center;
+    text-decoration:blue wavy underline;
+    text-decoration:skyblue dotted overline;
+}
+h4{
+    text-decoration:blue dotted overline;
+}
+#h1{
+    font-weight:normal;
+}
+#h2{
+    font-weight:bold;
+}
+#h3{
+    font-weight:bolder;
+}
+#h4{
+    font-weight:lighter;
+}
+#h5{
+    font-weight:100;
+}
+#h6{
+    font-weight:400;
+}
+#h7{
+    font-weight:900;
+}
+#one{
+    font-family:arial;
+}
+#two{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+#h8{
+    font-size:40px;
+}
+#h9{
+    font-size:10px;
+}
+#three{
+    line-height:40px;
+    text-transform:capitalize;
+}

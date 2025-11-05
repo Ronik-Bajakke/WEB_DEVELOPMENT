@@ -1,0 +1,29 @@
+h1{
+    color:#ff0000;
+}
+p{
+    color:skyblue;
+}
+button{
+    color:brown;
+}
+h1{
+    background-color:grey;
+}
+p{
+    background-color:#0000ff;
+}
+button{
+    background-color:pink;
+}
+h2{
+    color:blue;
+    background-color:red;
+}
+body{
+    background-color:rgb(36, 150, 189);
+}
+h3{
+    colour:#00ff00;
+    background-color:#ffff00
+}

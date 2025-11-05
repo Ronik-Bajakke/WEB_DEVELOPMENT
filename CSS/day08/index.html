@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--adding bootstrap link-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--adding our style file link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button>CLick Me</button>
+    <button class="btn btn-danger">Click Me</button>
+<!--container-->
+    <div class="container">
+        <h2>Bootstrap Demo</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, dolor praesentium harum maxime et exercitationem illo, fuga unde odit repellendus dignissimos laborum pariatur, nesciunt optio nulla neque ipsam blanditiis inventore.
+        Sapiente sed dolore deserunt quam, ullam similique quidem esse, eum et magni officiis modi, ea beatae corrupti quasi laboriosam eius dolorem suscipit aliquid minus? Totam earum delectus quae deserunt necessitatibus.
+        Nam saepe reprehenderit eius sint exercitationem architecto excepturi error soluta at! Fugit, doloremque est quam, nobis maxime sed corrupti quaerat nesciunt obcaecati, ab dolor. Incidunt cumque aspernatur porro voluptatum quis.
+        Ullam repellendus reiciendis dolor quia quis laboriosam, dignissimos molestias asperiores molestiae, perferendis saepe debitis corrupti magnam facilis. Eum voluptates velit repudiandae accusantium quaerat, assumenda optio, qui cum recusandae tempora aliquam!
+        Ducimus, iste quasi sint, illo asperiores dignissimos quidem temporibus earum nostrum, debitis consequuntur ad. Aliquam rerum molestiae aperiam! Illo ea voluptatem nostrum ducimus minima qui veniam quidem, culpa unde inventore.</p>
+        <!--components -->
+        <!--buttons-->
+        <button  class="btn btn-primary">CLick Me</button>
+        <button  class="btn btn-secondary">CLick Me</button>
+        <button  class="btn btn-success">CLick Me</button>
+        <button  class="btn btn-danger">CLick Me</button>
+        <button  class="btn btn-warning">CLick Me</button>
+        <button  class="btn btn-info">CLick Me</button>
+        <button  class="btn btn-light">CLick Me</button>
+        <button  class="btn btn-dark">CLick Me</button>
+        <button  class="btn btn-link">CLick Me</button>
+        <br>
+        <!--button with outline property-->
+        <button  class="btn btn-outline-primary">CLick Me</button>
+        <button  class="btn btn-outline-secondary">CLick Me</button>
+        <button  class="btn btn-outline-success">CLick Me</button>
+        <button  class="btn btn-outline-danger">CLick Me</button>
+        <button  class="btn btn-outline-warning">CLick Me</button>
+        <button  class="btn btn-outline-info">CLick Me</button>
+        <button  class="btn btn-outline-light">CLick Me</button>
+        <button  class="btn btn-outline-dark">CLick Me</button>
+        <button  class="btn btn-outline-link">CLick Me</button>
+        <br>
+        <!--button big and small-->
+        <button  class="btn btn-primary btn-lg">CLick Me</button>
+        <button  class="btn btn-secondary btn-sm">CLick Me</button>
+        <br>
+        <!--making a button diabled cannot be clicked-->
+        <button  class="btn btn-primary btn-lg" disabled>CLick Me</button>
+        <br>
+        <!--putting anchor tag inside button-->
+        <a href="https://www.google.com" class="btn btn-primary">Google</a>
+        <br>
+        <!--badges-->
+        <span class="badge bg-secondary">New</span>
+        <span class="badge bg-danger">10+</span>
+        <!--badge with an heading-->
+        <h1>Heading Example <span class="badge bg-primary">10+</span></h1>
+        <h3>Whatsapp<span class="badge bg-success">21+</span></h3>
+        <!--badge insoide button-->
+        <button class="btn btn-primary">Followers<span class="badge text-bg-dark rounded-pill">104M</span></button>
+        <br>
+        <!--applying position for badge-->
+        <button type="button" class="btn btn-primary position-relative">
+            Inbox
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+              99+
+              <!-- <span class="visually-hidden">unread messages</span> -->
+            </span>
+          </button>
+          <!--Alert-->
+          <div class="alert alert-primary" role="alert">File Submission Failed</div>
+          <div class="alert alert-danger" role="alert">File Submission Sucessfull</div>
+          <!--using close for alert function-->
+          <div class="alert alert-primary alert-dismissible ">Its Dengerous Site
+            <button class="btn-close" data-bs-dismiss="alert"></button>
+          </div>
+          <br>
+          <!--Componentes button Groups-->
+          <div class="btn-group">
+          <button class="btn btn-danger">one</button>
+          <button class="btn btn-success">two</button>
+          <button class="btn btn-primary">three</button>
+        </div>
+        <!--button group with outline-->
+        <div class="btn-group">
+            <button class="btn btn-outline-danger">one</button>
+            <button class="btn btn-outline-success">two</button>
+            <button class="btn btn-outline-primary">three</button>
+          </div>
+          <br>
+          <!--Nav Bar-->
+          <nav class="navbar bg-body-tertiary fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+            <a href="https://www.google.com" class="navbar-brand">Google</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Contact</a>
+                <a href="#" class="nav-link">About Us</a>
+            </div>
+            </div>
+            </div>
+          </nav>
+          <!--card-->
+          <div class="card" style="width:18rem;">
+            <img src="/bird.webp" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+                
+            </div>
+          </div>
+          <!--grid -->
+          <div class="container">
+            <div class="row">
+                <div class="col-4 bg-success">one</div>
+                <div class="col-2 bg-danger">two</div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col bg-success">one</div>
+                <div class="col bg-danger">two</div>
+                <div class="col bg-success">three</div>
+            </div>
+          </div>
+          <!--aligning using columns -->
+          <div class="row align-items-start">
+            <div class="col bg-success">one Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus a vitae eveniet eum? Expedita voluptate saepe itaque distinctio at voluptas praesentium dolor, ullam autem dolores non voluptatem explicabo quis delectus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus in, nobis inventore quis magni deleniti. Veritatis harum, eum dolorum dolore fugit, enim quisquam dicta ratione non qui repudiandae esse architecto!</div>
+            <div class="col bg-danger">two Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quod ipsum unde incidunt culpa, aspernatur fugiat nam a assumenda id eligendi ipsa corrupti magnam enim, labore hic debitis voluptates vitae?
+            Ex alias eos optio, mollitia consectetur itaque sequi vel odio dolorum quos expedita. Eaque fugit neque tempora dolorum qui mollitia possimus, ut animi, ullam, repellendus suscipit quas officiis quod provident?
+            Sunt fuga, at quaerat saepe asperiores natus, possimus nihil minus corrupti accusamus iste tempora, dicta consequuntur esse iure officia magnam quia? Sed iure nesciunt repellendus tenetur. A aliquid at aperiam.
+            Officia provident atque necessitatibus eaque, consectetur quibusdam fugit tempore aspernatur nemo a laboriosam corrupti ut quisquam iste blanditiis cupiditate corporis est consequatur voluptatum, inventore placeat! Enim commodi est nulla recusandae!</div>
+            <div class="col bg-success">three Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis iusto et non veritatis aspernatur, nesciunt fugiat ducimus, porro animi iure amet itaque libero consectetur, excepturi sapiente quo! Eos, veritatis ipsa.</div>
+        </div>
+        <!--form-->
+        <form class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="text" placeholder="email" class="form-control">
+        </form>
+        <!--select-->
+        <select id="city" name="city" class="form-select">
+            <option value="bang">Bnagalore</option>
+            <option value="delh">Delhi</option>
+        </select>
+        <!--checkbox-->
+        <div class="form-check">
+            <label for="yes" class="form-check-label">Yes</label>
+            <input type="checkbox" id="yes" name="yes" class="form-check-input">
+            <br>
+            <label for="no" class="form-check-label">NO</label>
+            <input type="checkbox" id="no" name="yes"class="form-check-input">
+        </div>
+        <!--radio-->
+        <div class="form-check">
+            <label for="yes" class="form-check-label">Yes</label>
+            <input type="radio" id="yes" name="yes" class="form-check-input">
+            <br>
+            <label for="no" class="form-check-label">NO</label>
+            <input type="radio" id="no" name="yes"class="form-check-input">
+        </div>
+        <!--switch-->
+        <div class="form-check form-switch">
+            <label for="yes" class="form-check-label">Yes</label>
+            <input type="radio" id="yes" name="yes" class="form-check-input">
+            <br>
+            <label for="no" class="form-check-label">NO</label>
+            <input type="radio" id="no" name="yes"class="form-check-input">
+        </div>
+    </div>
+
+    <!--adding java scrips bootstrap link-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

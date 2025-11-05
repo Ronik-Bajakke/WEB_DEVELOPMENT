@@ -1,0 +1,105 @@
+/*rgba alpa channel*/
+#div1{
+    height:100px;
+    width:100px;
+    background-color:#ffff00ff;
+    color:rgba(255,0,0,0.6)
+}
+
+/*opacity*/
+#div2{
+    background-color:rgb(255,0,255);
+    opacity:0.6;
+}
+
+/*transition*/
+#div3{
+    height:100px;
+    width:100px;
+    background-color:grey;
+    transition-duration:1s;
+    transition-delay:1s;
+}
+
+/*css transition*/
+#div3:hover{
+    background-color:black;
+    border-radius:50%;
+}
+
+/*transition*/
+#div4{
+    height:100px;
+    width:100px;
+    background-color:rgb(109, 165, 53);
+    margin-top:10px;
+    margin:0 auto;
+    transition:margin-top 2s ease-in 0.2s;
+}
+
+#div4:hover{
+    margin-top:400px;
+    background-color:pink;
+
+}
+
+/*transform rotate*/
+#div5{
+    height:100px;
+    width:100px;
+    background-color:skyblue;
+    transform:rotate(45deg);
+   }
+
+/*transform scale*/
+#div6{
+    height:100px;
+    width:100px;
+    background-color:blueviolet;
+    transform:scale(2,0.5);
+}
+
+/*transfrom translate*/
+#div7{
+    height:100px;
+    width:100px;
+    background-color:coral;
+    transform:translate(100px,100px);
+}
+
+/*transform skew*/
+#div8{
+    height:100px;
+    width:100px;
+    background-color:aquamarine;
+    transform:skew(30deg);
+}
+/*using 2 or more transforms at a time*/
+#div9{
+    height:100px;
+    width:100px;
+    background-color:aquamarine;
+    transform:rotate(45deg) translate(200px,50px) skew(45deg);
+}
+/*box shadow*/
+#div10{
+    height:100px;
+    width:100px;
+    background-color:cadetblue;
+    box-shadow:20px 20px 10px green;
+   
+}
+/*background image*/
+#div11{
+    height:400px;
+    width:400px;
+    background-color:deeppink;
+    background-image:url("https://media.istockphoto.com/id/1129798990/photo/young-tigress-telia-sisters-panthera-tigris-tadoba-maharashtra-india.webp?b=1&s=612x612&w=0&k=20&c=i73XamcCwauaNLyJaIdJIUMmQxOHMB_dayRYFiMjj40=");
+    background-size:cover;
+    color:white;
+   
+}
+
+
+
+

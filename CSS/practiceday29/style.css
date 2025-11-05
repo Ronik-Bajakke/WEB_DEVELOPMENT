@@ -1,0 +1,17 @@
+#one{
+    height:800px;
+    width:800px;
+    background-color:rgb(208, 226, 43);
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+#two{
+    height:400px;
+    width:400px;
+    background-color:rgb(226, 125, 43);
+    /* align-self:flex-start; */
+    
+
+}

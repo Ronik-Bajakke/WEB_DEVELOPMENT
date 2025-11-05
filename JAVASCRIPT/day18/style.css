@@ -1,0 +1,17 @@
+#mainbox{
+    text-align:center; 
+}
+#insidebox  {
+    height:100px;
+    width:500px;
+    border:1px solid black;
+    /* position:relative;
+    left:420px; */
+    margin:auto;
+}
+#box{
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    background-color: pink;
+}

@@ -1,0 +1,20 @@
+div{
+    height:60px;
+    color:white;
+    background-color:black;
+    padding-top:30px;
+}
+button{
+    background-color:orange;
+}
+
+a{
+    color:orange;
+    margin-right:200px;
+    text-decoration:none;
+    color:white;
+}
+
+#one{
+    color:orange;
+}

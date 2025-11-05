@@ -1,0 +1,57 @@
+#box1{
+    height:100px;
+    width:100px;
+    background-color:green;
+    display:inline-block;
+    border:2px solid black;
+    position:static;
+    top:20px;
+    
+}
+#box2{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    display:inline-block;
+    border:2px solid black;
+    position:relative;
+    top:20px;
+    right:20px;
+
+}
+#box3{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    display:inline-block;
+    border:2px solid black;
+    position:absolute;
+    right:20px;
+    bottom:40px;
+    background-image:url("bird.webp");
+    background-size:cover;
+}
+#box4{
+    height:100px;
+    width:100px;
+    background-color:grey;
+    display:inline-block;
+    border:2px solid black;
+    position:fixed;
+    top:100px;
+    right:200px;
+    background-image:url("bird.webp");
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+#box5{
+    height:100px;
+    width:100px;
+    background-color:grey;
+    display:inline-block;
+    border:2px solid black;
+    position:sticky;
+    bottom:200px;
+    background-image:url("bird.webp");
+    background-size:auto;
+}

@@ -1,0 +1,122 @@
+/*question 1*/
+#main{
+    height:400px;
+    width:600px;
+    display:grid;
+    grid-template-rows:auto auto auto  auto auto auto auto auto auto  auto auto auto ;
+    grid-template-columns:auto auto auto  auto auto auto auto auto auto  auto auto auto ;
+    grid-gap:10px;
+}
+#box1{
+    font-size:12px;
+    grid-column-start:1;
+    grid-column-end:12;
+    background-color:pink;
+}
+#box2{
+    font-size:12px;
+    grid-row-start:2;
+    grid-row-end:11;
+    grid-column-start:1;
+    grid-column-end:3;
+    background-color:pink;
+}
+#box3{
+    font-size:12px;
+    grid-column-start:3;
+    grid-column-end:10;
+    background-color:pink;
+}
+#box4{
+    font-size:12px;
+    grid-column-start:10;
+    grid-column-end:12;
+    grid-row-start:2;
+    grid-row-end:11;
+    background-color:pink;
+}
+#box5{
+    font-size:12px;
+    grid-row-start:3;
+    grid-row-end:11;
+    grid-column-start:3;
+    grid-column-end:10;
+    background-color:pink;
+}
+#box6{
+    font-size:12px;
+    grid-row-start:11;
+    grid-row-end:12;
+    grid-column-start:1;
+    grid-column-end:12;
+    background-color:pink;   
+}
+
+
+/*question 2*/
+@media(max-width:720px){
+    #box1{
+        font-size:12px;
+        grid-column-start:1;
+        grid-column-end:12;
+        background-color:pink;
+    }
+    #box2{
+        font-size:12px;
+        grid-row-start:2;
+        grid-row-end:3;
+        grid-column-start:1;
+        grid-column-end:12;
+        background-color:pink;
+    }
+    #box3{
+        font-size:12px;
+        grid-row-start:3;
+        grid-row-end:11;
+        grid-column-start:1;
+        grid-column-end:3;
+        background-color:pink;
+    }
+    #box4{
+        font-size:12px;
+        grid-column-start:3;
+        grid-column-end:12;
+        grid-row-start:3;
+        grid-row-end:11;
+        background-color:pink;
+    }
+    #box5{
+        font-size:12px;
+        grid-row-start:11;
+        grid-row-end:12;
+        grid-column-start:1;
+        grid-column-end:3;
+        background-color:pink;
+    }
+    #box6{
+        font-size:12px;
+        grid-row-start:11;
+        grid-row-end:12;
+        grid-column-start:3;
+        grid-column-end:12;
+        background-color:pink;   
+    }
+}
+/*question 3*/
+#loader{
+    height:200px;
+    width:200px;
+    border:20px solid rgb(218, 199, 199);
+    background-color:white;
+    border-radius:50%;
+    border-top-color:rgb(224, 155, 26);
+    animation-name:loading;
+    animation-duration:2s;
+    animation-delay:0s;
+    animation-timing-function:linear;
+    animation-direction:normal;
+    animation-iteration-count:infinite;
+}
+@keyframes loading{
+    from{transform:rotate(-360deg);}
+}

@@ -1,0 +1,45 @@
+p{
+    color:orange;
+    display:inline-block;
+    margin-right:100px;
+}
+a{
+    color:white;
+    margin-right:100px;
+}
+button{
+    background-color:orange;
+}
+#four{
+    background-color:black;
+}
+
+#one{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    text-align:center;
+    background-color:rgba(255,255,0,0.5);
+    border:2px solid black;
+}
+#two{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    text-align:center;
+    background-color:rgba(255,0,255,0.5);
+    border:2px solid black;
+}
+#three{
+    display:inline-block;
+    height:100px;
+    width:100px;
+    text-align:center;
+     background-color:rgba(0,255,255,0.5);
+     border:2px solid black;
+}
+#five{
+    background-color:black;
+    text-align:center;
+    color:white;
+}

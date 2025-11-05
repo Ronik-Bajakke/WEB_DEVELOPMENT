@@ -1,0 +1,12 @@
+ /*event bubbling*/
+ #div1{
+    height:200px;
+    width:400px;
+    background-color: pink;
+}
+#ul1{
+    background-color: blue;
+}
+.lis{
+    background-color: greenyellow;
+}

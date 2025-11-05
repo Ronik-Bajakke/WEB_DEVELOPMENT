@@ -1,0 +1,48 @@
+/*question 1*/
+#main{
+    height:800px;
+    width:800px;
+    display:flex;
+    background-color:white;
+    flex-direction:row;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    align-items:center;
+    border:2px solid skyblue;
+}
+
+
+div{
+    height:200px;
+    width:200px;
+    border:2px solid black;
+    color:black;
+    background-color:rgb(114, 104, 104);
+    border-radius:15px;
+    text-align:center;
+    font-size:100px;
+}
+/*question 2*/
+#main2{
+    height:50px;
+    width:900px;
+    border:2px solid skyblue;
+    background-color:pink;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    align-content:center;
+
+
+}
+.nav{
+    height:40px;
+    width:80px;
+    font-size:24px;
+    background-color:pink;
+    border:none;
+    padding-top:8px;
+    border-radius:none;
+
+
+}

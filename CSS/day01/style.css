@@ -1,0 +1,56 @@
+h1{
+    color:red;
+    background-color:black;
+}
+
+p{
+    color:blue;
+    background-color:yellow;
+    text-align:center;
+    font-weight:bolder;
+}
+
+button{
+    color:yellow;
+    background-color: black;
+}
+
+h4{
+    color:rgb(0,250,250);
+    background-color:#ffff00;
+}
+
+h3{
+    color:#f00;
+    width:50%;
+    text-align:right;
+    font-weight:100;
+    text-decoration:  wavy line-through;
+    letter-spacing:50px;
+    font-size:50px;
+    font-family:arial;
+   
+
+}
+
+a{
+    text-decoration:none;
+}
+
+pre{
+    line-height:0.5;
+}
+
+h2{
+    font-family:League spartan;
+    color:#ffa511;
+    text-align:center;
+    font-size:55px;
+    font-weight:900;
+    letter-spacing:2px;
+    line-height:1.5;
+    text-decoration:teal double underline;
+    text-transform:uppercase;
+
+}
+

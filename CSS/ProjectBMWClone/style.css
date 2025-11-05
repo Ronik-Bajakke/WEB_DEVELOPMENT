@@ -1,0 +1,389 @@
+*{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+#mainbox{
+    height:40.625rem;
+    width:100%;
+    background-color:black;
+    background-image: url("car1.jpg");
+    background-size: cover;
+    display:flex;
+    justify-content: center; 
+}
+#mainLetter{
+    height:400px;
+    width:65%;
+    position:absolute;
+    margin-top:200px;
+    margin-right:350px;
+}
+#para1{
+    font-size:30.37px;
+    color:white;
+    margin-bottom:10px;
+    text-decoration: none;
+    display:block;
+}
+#para2{
+    font-size:58.652px;
+    color:white;
+    margin:0;
+    text-decoration: none;
+    display:block;
+}
+#para3{
+    font-size:58.652px;
+    color:white;
+    margin:0;
+    text-decoration: none;
+    display:block;
+}
+
+#but1{
+    font-size:24px;
+    border:2px solid white;
+    height:40px;
+    width:150px;
+    background-color:rgba(2552,255,255,0);
+    margin-top:25px;
+    color:white;
+}
+#but1:hover{
+    color:black;
+    background-color:rgb(255,255,255);
+}
+
+
+#nav{
+    background-color:white;
+    width:97%;
+    height:5rem;
+    position:relative;
+    top:20px;
+    display:flex;
+}
+#logo{
+    width:60px;
+    padding-left:45px;
+    padding-top:15px;
+}
+#para{
+    width:400px;
+    height:60%;
+    margin-top:16.5px;
+    margin-left:6px;
+    padding-left:10px;
+    font-weight: 600;
+    font-size:16px;
+    border-left:1px solid black;
+}
+#mainbox2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100%;
+    flex-wrap:wrap;
+    align-content:center;
+    font-weight: 600;
+    font-size:16px;
+}
+#mainbox2 a{
+    text-decoration:none;
+    color:black;
+}
+#one{
+    height:60%;
+    width:70px;
+    text-align:center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+}
+#one:hover{
+    background-color:rgb(82, 82, 245);
+}
+
+#two{
+    height:60%;
+    width:140px;
+    text-align:center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+}
+#two:hover{
+    background-color:rgb(82, 82, 245);
+}
+
+#three{
+    height:60%;
+    width:140px;
+    text-align:center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+}
+#three:hover{
+    background-color:rgb(82, 82, 245);
+}
+#four{
+    height:60%;
+    width:140px;
+    text-align:center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+}
+#four:hover{
+    background-color:rgb(82, 82, 245);
+}
+#five{
+    height:60%;
+    width:70px;
+    text-align:center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+}
+#five:hover{
+    background-color:rgb(82, 82, 245);
+}
+#six{
+    height:60%;
+    width:70px;
+    text-align:center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+}
+#six:hover{
+    background-color:rgb(82, 82, 245);
+}
+
+#seven{
+    height:60%;
+    width:70px;
+    text-align:center;
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+}
+#seven:hover{
+    background-color:rgb(82, 82, 245);
+}
+#box223{
+    height:40.625rem;
+    width:100%;
+    display:flex;
+    margin-top:2px;  
+}
+#box223 .box112{
+    height:40.625rem;
+    width:50%;
+    margin-right:2px;
+    background-color:yellow;
+    display:inline-block;
+}
+#mainLetter2{
+    height:400px;
+    width:65%;
+    position:absolute;
+    margin-top:200px;
+    margin-right:300px;
+    margin-left:53px;
+}
+#mainLetter3{
+    height:400px;
+    width:65%;
+    position:absolute;
+    top:805px;
+    left:700px;
+
+    margin-left:53px;
+}
+
+#para11{
+    font-size:25.37px;
+    color:white;
+    margin-bottom:10px;
+    text-decoration: none;
+    display:block;
+}
+#para22{
+    font-size:48.652px;
+    color:white;
+    margin:0;
+    text-decoration: none;
+    display:block;
+}
+#para33{
+    font-size:48.652px;
+    color:white;
+    margin:0;
+    text-decoration: none;
+    display:block;
+}
+#para44{
+    font-size:48.652px;
+    color:white;
+    margin:0;
+    text-decoration: none;
+    display:block;
+}
+#box33{
+    background-color: pink;
+    display:flex;
+}
+#imageSlide{
+    height:300px;
+    width:500px;
+    animation-name:backimage;
+    animation-duration: 6s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+    position:absolute;
+    animation-timing-function: normal;
+    top:1350px;
+    left:700px;
+}
+@keyframes backimage{
+    0%{
+        background-image:url("carint1.jpg");
+        background-size: 100% 100%;
+        background-position: right;
+    }
+    50%{
+        background-image:url("carint2.jpg");
+        background-size: 100% 100%;
+        background-position: right;
+
+        
+    }
+    100%{
+        background-image:url("carint3.png");
+        background-size: 100% 100%;
+        background-position: right;
+
+      
+    }
+}
+#box33{
+    height:500px;
+    width:600px;;
+    display:flex;
+    background-color:white;
+
+}
+
+
+#paradiv{
+    margin-top:130px;
+    margin-left:120px;
+}
+#para111{
+    display:block;
+    margin:0;
+    font-size: 28px;
+ 
+}
+#para222{
+    margin-top:100px;
+    margin-left:50px;
+    display:block;
+    margin:0;
+    font-size: 28px;
+}
+#para333{
+    margin-top:100px;
+    margin-left:50px;
+    display:block;
+    margin:0;
+    font-size:18px;
+    margin-top:10px;
+    text-decoration:none;
+    color:black;
+}
+
+/**footer**/
+.foot1{
+    color:white;
+    background-color:#37475a;
+    height:50px;
+    text-align:center;
+    font-size:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.foot2{
+    background-color:#222f3D;
+    color:white;
+    height:500px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+ul a{
+    display:block;
+}
+
+.foot2 p{
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+.foot2 a{
+    color:#dddddd;
+    font-size:14px;
+    margin-top:10px;
+}
+
+ul{
+    margin-top:50px;
+
+}
+
+.foot3{
+    height:80px;
+    background-color:#222f3D;
+    border-top:0.3px solid white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+.logo{
+    height:50px;
+    width:150px;
+    background-image:url("logo.svg");
+    background-size:contain;   
+}
+
+.foot4{
+    height:80px;
+    background-color:#0f1111;
+    color:white;
+}
+
+.foot4 p{
+ text-align:center;
+
+}
+
+.foot41 {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top:10px;
+    margin-bottom:10px;
+   
+   }

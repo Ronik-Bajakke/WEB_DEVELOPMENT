@@ -1,0 +1,48 @@
+/*1q*/
+#mainTopic{
+    color:blue;
+}
+
+/*2q*/
+*{
+    text-align:center;
+}
+/*3q*/
+h1,h3{
+    font-family:georgia;
+}
+/*4q*/
+p{
+    color:white;
+    background-color:cornflowerblue;
+}
+/*5q*/
+div button{
+    background-color:purple;
+    color:azure;
+}
+/*6q*/
+div button:hover{
+    color:yellow;
+    background-color:blue;
+}
+/*7q*/
+p:nth-of-type(2n-1){
+    color:yellow;
+
+}
+/*8q*/
+h1::first-letter{
+    color:red;
+}
+/*9q*/
+input[type="checkbox"]:checked+label{
+    color:darkblue;
+}
+/*10q*/
+/*- h1         001
+- #mainContent 100
+- .main        010
+- div .main    011
+*/
+

@@ -1,0 +1,57 @@
+#div1,#div2{
+    height:300px;
+    width:300px;
+    background-color:pink;
+    border-width:5px;
+    border-style:solid;
+    border-color:black;
+    border-radius:15px;
+    padding-top:50px;
+    padding-left:35px;
+    margin-left:50px;
+    margin-top:50px;
+    margin-right:50px;
+}
+
+h1{
+    border:2px dotted green;
+    border-left-color:blue;
+    border-top-style:dashed;
+
+}
+
+button{
+    border:2px solid black;
+    border-radius:10px;
+    padding-left:25px;
+    padding-right:25px;
+}
+h2{
+    display:inline;
+    background-color:orange;
+}
+
+a{
+    display:block;
+    background-color:pink;
+}
+
+span{
+    /* background-color:green; */
+    color:yellow;
+    border:2px solid black;
+    height:100px; /*not applied*/
+    width:200px;   /*not applied*/
+    padding:50px;   /*applied but merging with the paragraph lrft and right,top and bottom text overlap is happing*/
+    margin:20px;     /*applied but merging with the paragraph lrft and right,top and bottom text overlap is happing*/
+}
+
+#divpara2{
+    color:yellow;
+    border:2px solid black;
+    height:100px; /*applied*/
+    width:200px;   /* applied*/
+    padding:50px;   /*applied but merging with the paragraph lrft and right,top and bottom text overlap is happing*/
+    margin:20px;     /*applied but merging with the paragraph lrft and right,top and bottom text overlap is happing*/
+
+}
